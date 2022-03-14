@@ -2,7 +2,6 @@ const dogBreedListService = () => {
     console.log("Mocked dog breed list");
     return Promise.resolve(
         [{
-            "message": {
                 "affenpinscher": [],
                 "african": [],
                 "airedale": [],
@@ -207,8 +206,6 @@ const dogBreedListService = () => {
                 "wolfhound": [
                     "irish"
                 ]
-            },
-            "status": "success"
         }]
     )
 }
